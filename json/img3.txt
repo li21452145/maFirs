@@ -1,0 +1,1 @@
+[{"src":"img2/nav-3-img1.jpg","alt":"手机","tota":"小米平板2 16GB","$$":"999元"},{"src":"img2/nav-3-img2.jpg","alt":"手机","tota":"小米平板2 64GB","$$":"1299元"},{"src":"img2/nav-3-img3.jpg","alt":"手机","tota":"小米平板2  64GB Windows版","$$":"1299元"}]

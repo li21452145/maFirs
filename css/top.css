@@ -1,0 +1,369 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,iframe, label,button,input,textarea,th,td,a,i,b,u{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    /*font-family: Menlo, Monaco, Consolas, "Courier New", monospace;*/
+    font-family: 微软雅黑;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; }
+address,cite,dfn,var { font-style: normal; }
+code,kbd,pre,samp,tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small{ font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+/* 重置列表元素 */
+ul,ol{ list-style: none; }
+/* 重置文本格式元素 */
+a{ text-decoration: none; }
+a:hover,a:visited,a:link,a:active{ text-decoration: none; }
+/* 重置表单元素 */
+fieldset,img,button{ border: none;}
+/* 注：optgroup 无法扶正 */
+button,input,select,textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+img,iframe,table,form{
+    border: none;
+    vertical-align: top;
+}
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear {zoom: 1; }
+.clear:after, .clear:before {content: ""; display: block; height: 0; visibility: hidden; }
+.clear:after {clear: both; }
+/* 通用样式 */
+
+.header{
+    position: relative;
+    z-index: 50;
+    width: 100%;
+    height: 140px;
+    background: #FFFFFF;
+}
+.min_width{
+    width: 100%;
+    min-width: 1226px;
+}
+.width{
+    margin: 0 auto;
+    width: 1226px;
+}
+.bg{
+    background: #333333;
+}
+.pos{
+    position: relative;
+}
+.header .left ul li{
+    float: left;
+    height:40px;
+    line-height: 40px;
+}
+.header .left ul li a,.header .left ul li span{
+    float: left;
+    font-size: 12px;
+}
+.header .left ul li a{
+    color:#a4a4a4;
+}
+.header .left ul li a:hover{
+    color: #FFFFFF;
+}
+.header .left ul li span{
+    padding: 0 5px;
+    color: #424242;
+}
+.header .right{
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    width: 400px;
+    height: 40px;
+    background: #333333;
+}
+.header .right ol{
+    float: right;
+}
+.header .right ol li{
+    padding: 0 15px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.header .right ol li.liist{
+    background-color:#424242 ;
+}
+.header .right ol li.liist i,.header .right ol li.liist a,.header .right ol li.liist span{
+    float: left;
+    color:#a4a4a4;
+}
+.header .right ol li.liist i{
+    margin-right: 3px;
+    font-size: 16px;
+}
+.header .right ol li.liist:hover{
+    background-color: #FFFFFF;
+}
+.header .right ol li a{
+    color:#a4a4a4;
+}
+.header .right ol li span{
+    color: #424242;
+}
+.header .right ol li a:hover{
+    color: #FFFFFF;
+}
+.header .right ol li.liist:hover i,.header .right ol li.liist:hover span{
+    color:#ff6700;
+}
+.header .posi{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: -100px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    z-index: 3;
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.header .posi p{
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+/* bottomN */
+.header .bottomN{
+    position: relative;
+    z-index: 2;
+    height: 100px;
+    background: #FFFFFF;
+}
+.header .bottomN .logo{
+    width: 234px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+/* logo */
+.header .bottomN .logo a{
+    float: left;
+    margin-top:25.5px;
+    display: block;
+    width: 49px;
+    height: 49px;
+    background: url("../img2/mi-logo.png") no-repeat center center #ff6700;
+}
+.header .bottomN .navS{
+    height: 100px;
+    line-height: 100px;
+}
+.header .bottomN .navS ul li,.header .bottomN .navS ol li{
+    float: left;
+}
+.header .bottomN .navS ul li a,.header .bottomN .navS ol li a{
+    padding: 0 14px;
+    height: 100%;
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+.header .bottomN .navS ul li a:hover,.header .bottomN .navS ol li a:hover{
+    color: #ff6700
+}
+/* 隐藏显示 图片列表 */
+/*.header .bottomN .navS ul li{*/
+    /*position: relative;*/
+/*}*/
+.header .bottomN .navS ul .bog{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    /*height: 230px;*/
+    border-top:1px solid #e0e0e0 ;
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 29;
+    background: #FFFFFF;
+}
+.header .bottomN .navS ul li .listDiv{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    /*height: 230px;*/
+    border-top:1px solid #e0e0e0 ;
+    /*-webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.15);*/
+    /*box-shadow: 0 4px 10px rgba(0,0,0,0.15);*/
+    z-index: 30;
+    overflow: hidden;
+}
+.header .bottomN .navS ul li .listDiv ul li{
+    float: left;
+    padding:35px 22px 0 23px;
+    width: 160px;
+    background: url("../img2/bg_tiao.gif") no-repeat ;
+    background-color: #FFFFFF;
+    background-position:204px 35px;
+    text-align: center;
+}
+.header .bottomN .navS ul li .listDiv ul li.lists{
+    padding:35px 18px 0 20px;
+    background-position:202px 35px;
+}
+.header .bottomN .navS ul li .listDiv ul li div{
+    margin-bottom: 20px;
+}
+.header .bottomN .navS ul li .listDiv ul li div,.header .bottomN .navS ul li .listDiv ul li img{
+    border: none;
+    width: 160px;
+    height: 110px;
+}
+.header .bottomN .navS ul li .listDiv ul li div img{
+    display: none;
+}
+.header .bottomN .navS ul li .listDiv ul li a,.header .bottomN .navS ul li .listDiv ul li span{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.header .bottomN .navS ul li .listDiv ul li a{
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+}
+.header .bottomN .navS ul li .listDiv ul li span{
+    font-size: 12px;
+    line-height: 20px;
+    color:#ff6700 ;
+}
+/* 搜索 */
+.header .bottomN .search{
+    margin-left: 40px;
+    position: relative;
+}
+.header .bottomN .search input{
+    float: right;
+    margin-top: 25px;
+    padding:16px 60px 16px  10px;
+    width: 214px;
+    height: 14px;
+    border: 1px solid #e0e0e0;
+    outline:none;
+}
+.header .bottomN .search input.bg{
+    border-color: #ff6700;
+    background: #FFFFFF;
+}
+.header .bottomN .search input.bg1,.header .bottomN .search i.bg1{
+    border-color:#999;
+    background: #FFFFFF;
+}
+.header .bottomN .search i.bg{
+    border-color: #ff6700;
+    background: #FFFFFF;
+}
+.header .bottomN .search p a{
+    padding:  0 3px;
+    font-size: 12px;
+    background: #eeeeee;
+    color: #757575;
+}
+.header .bottomN .search p a:hover{
+    background: #ff6700;
+    color: #FFFFFF;
+}
+.header .bottomN .search .aa1{
+    margin-right: 5px;
+}
+.header .bottomN .search p{
+    position: absolute;
+    top:42px;
+    right: 61px;
+}
+.header .bottomN .search i{
+    position: absolute;
+    display: block;
+    top: 25px;
+    right: 0;
+    width: 50px;
+    height: 46px;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 43px;
+    border:1px solid #e0e0e0 ;
+    cursor: pointer;
+}
+.header .bottomN .search i:hover{
+    border:1px solid #ff6700 ;
+    background: #ff6700;
+    color: #FFFFFF;
+}
+/*.header .bottomN .search:hover input,.header .bottomN .search:hover i{*/
+    /*border:1px solid #000 ;*/
+/*}*/
+.header .bottomN .search ul.xList{
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 233px;
+    border: 1px solid #ff6700;
+    background: #FFFFFF;
+    z-index: 30;
+}
+.header .bottomN .search ul.xList li{
+    padding:0 10px;
+    width:213px ;
+    background: #FFFFFF;
+}
+.header .bottomN .search ul.xList li a{
+    padding:5px 0;
+    display: block;
+    width: 100%;
+}
+.header .bottomN .search ul.xList li a span{
+    float: left;
+    font-size: 12px;
+    color: #000002;
+}
+.header .bottomN .search ul.xList li a b{
+    float: right;
+    font-weight: 500;
+    color: #c8c8c8;
+}
+/*
+/!*
+头部->logo+导航+搜索
+*!
+.header .logoList ul li a{
+    padding: 0 16px;
+    height: 100%;
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+*/

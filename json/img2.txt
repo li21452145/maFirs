@@ -1,0 +1,1 @@
+[{"src":"img2/nav-2-img1.jpg","alt":"手机","tota":"红米手机2A","$$":"特价499"},{"src":"img2/nav-2-img2.jpg","alt":"手机","tota":"红米手机2","$$":"599元起"},{"src":"img2/nav-2-img3.jpg","alt":"手机","tota":"红米手机3","$$":"699元起"},{"src":"img2/nav-2-img4.jpg","alt":"手机","tota":"红米Note","$$":"699元起"},{"src":"img2/nav-2-img5.jpg","alt":"手机","tota":"红米Note3","$$":"899元起"}]

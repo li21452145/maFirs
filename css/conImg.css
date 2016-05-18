@@ -1,0 +1,981 @@
+@charset "UTF-8";
+.conImg {
+    background: #f5f5f5;
+    padding:36px 0 60px 0;
+}
+.conImg .title{
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+.conImg .title h3{
+    width: 50%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 200;
+    color:#333 ;
+}
+.conImg .title div{
+    height: 60px;
+    line-height: 60px;
+}
+.conImg .title div a{
+    font-size: 16px;
+    color: #424242;
+    line-height: 60px;
+    transition: all .4s;
+}
+.conImg .title div a i{
+    position: relative;
+    bottom:2px;
+    margin-left: 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px 3px 4px 4px;
+    color: #fff;
+    line-height: 18px;
+    background: #b0b0b0;
+}
+.conImg .title div ul{
+    width: 100%;
+    height: 100%;
+}
+.conImg .title div ul li{
+    float: left;
+    padding-top: 25px;
+    font-size: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+    line-height: 20px;
+    height: 20px;
+    color: #424242;
+}
+.conImg .title div ul li.bgs{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+
+
+.conImg .title div a:hover{
+    color:#ff6700;
+}
+.conImg .title div a:hover i{
+    background: #ff6700;
+    color: #FFFFFF;
+}
+
+.conImg .conI{
+    width: 100%;
+    height: 614px;
+    /*overflow: hidden;*/
+}
+.conImg .conI div{
+    width: 234px;
+}
+.conImg .conI div .a{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    background: #FFFFFF;
+}
+.conImg .leftImg{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.conImg .leftImg a{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 614px;
+}
+
+.conImg .conI div .a1,.conImg .conI div .a1 img{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 614px;
+}
+.conImg .conI div div{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 14px;
+}
+.conImg .conI div div a img{
+    width:234px;
+    height: 300px;
+}
+.conImg .conI div div a{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.conImg .conI ul{
+    width: 992px;
+}
+.conImg .conI ul .box{
+    width: 992px;
+    display: none;
+}
+.conImg .conI ul li{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    float: left;
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 280px;
+    background: #FFFFFF;
+    /*box-shadow:0px 5px 10px 5px #e1e1e1;*/
+    overflow: hidden;
+}
+.conImg .conI ul li .div1{
+    margin: 0 37px 18px 37px;
+}
+.conImg .conI ul li .div1,.conImg .conI ul li .div1 a{
+    width: 160px;
+    height: 160px;
+    display: block;
+}
+.conImg .conI ul li .div1 a img{
+    width: 160px;
+    height: 160px;
+}
+.conImg .conI ul li h4{
+    padding: 0 10px;
+    width: 214px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.conImg .conI ul li h4 a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.conImg .conI ul li .p1{
+    margin-bottom: 9px;
+    padding:0 10px;
+    width: 214px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #b0b0b0;
+    overflow: hidden;
+}
+.conImg .conI ul li .p2{
+    padding:0 10px;
+    width: 214px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+.conImg .conI ul li .p2 b,.conImg .conI ul li .p2 i{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+.conImg .conI ul li .p2 b{
+    color: #ff6700;
+}
+.conImg .conI ul li .p2 i{
+    margin-left: 3px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+.conImg .conI ul li span{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+    width: 66px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.conImg .conI ul li span.bg1{
+    background: #ffac13;
+}
+.conImg .conI ul li span.bg2{
+    background: #83c44e;
+}
+.conImg .conI ul li span.bg3{
+    background: #e53935;
+}
+.conImg .conI ul li div.div2{
+    display: none ;
+    position: absolute;
+    right: 0;
+    top: 300px;
+    width: 100%;
+    height: 76px;
+    background: #ff6700;
+    overflow: hidden;
+    cursor: pointer;
+}
+.conImg .conI ul li .div2 .p1{
+    padding: 10px 35px 0 30px;
+    margin: 0;
+    width:169px ;
+    height: 36px;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 18px;
+}
+.conImg .conI ul li .div2 .p3{
+    padding: 0 35px 0 30px;
+    line-height: 25px;
+    color: #ffbe93;
+}
+
+
+.conI .rightImg div.lists{
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 300px;
+    overflow: hidden;
+    /*box-shadow:0px 5px 10px 5px #e1e1e1;*/
+}
+.conI .rightImg div.lists div{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 14px;
+    background: #FFFFFF;
+}
+.conI .rightImg div.lists div h5{
+    position: relative;
+    float: left;
+    width: 117px;
+    height: 100%;
+}
+.conI .rightImg div.lists div a{
+    display: block;
+    float: left;
+    width: 55px;
+    margin: 48px 0px 10px 22px;
+    height: 55px;
+}
+.conI .rightImg div.lists div a img{
+    position: relative;
+    z-index: 2;
+    top:-6px;
+    width: 55px;
+    height: 55px;
+
+}
+.conI .rightImg div.lists div h5 a{
+    display: block;
+    width: 90px;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 300;
+}
+.conI .rightImg div.lists div h5 .p1{
+    width: 90px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 300;
+}
+.conI .rightImg div.lists div h5 p{
+    position: relative;
+    top: -10px;
+    left: 0;
+    width: 90px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #ff6700;
+    font-weight: 300;
+}
+.conI .rightImg div.lists div h5 .a1{
+    display: block;
+    width: 90px;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #333333;
+}
+.recommend{
+    height:380px;
+    overflow: hidden;
+}
+.recommend ol.kuang{
+    padding-top:25px;
+    width: 71px;
+    height: 24px;
+}
+.recommend ol.kuang li.li1,.recommend ol.kuang li.li2{
+    position: relative;
+    border: 1px solid #e0e0e0;
+    width: 34px;
+    height: 22px;
+    background: none;
+}
+.recommend ol.kuang li.li1 i,.recommend ol.kuang li.li2 i{
+    position: relative;
+    top: -20px;
+    left: 10px;
+
+}
+
+.recommend ol.kuang li.li1{
+    float: left;
+    border-right: none;
+}
+.recommend ol.kuang li.li2{
+    float: right;
+}
+.recommend ol.kuang li.bg{
+    color: #bcb3af;
+}
+.conIss{
+    position: relative;
+    left: 0;
+    top:0;
+}
+.conIss ol{
+    width: 4960px;
+    height: 300px;
+    overflow: hidden;
+}
+.conIss ol{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.conIss ol li{
+    position: relative;
+    float: left;
+    margin-right:14px;
+    padding-top: 20px;
+    width: 234px;
+    height: 280px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.conIss ol li a.a1{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.conIss ol li a.a1,.conIss ol li a.a1 img{
+    height: 140px;
+}
+.conIss ol li a.a1 img{
+    width: 140px;
+}
+
+.conIss ol li p{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+}
+.conIss ol li p a,.conIss ol li p b,.conIss ol li p{
+    font-size: 12px;
+}
+
+.conIss ol li p.p1 a{
+    color: #333333;
+}
+.conIss ol li p.p2 b{
+    margin-left: 5px;
+    font-weight: 500;
+    color: #e1e1e1;
+    text-decoration: line-through;
+}
+.conIss ol li span{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    display: block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.conIss ol li span.bg1{
+    background: #cc0000;
+}
+.conIss ol li span.bg2{
+    background: #0fb200;
+}
+.conIss ol li span.bg3{
+    background: #F9044E;
+}
+.conIss ol li p.p3{
+    color: #757575;
+}
+
+.conIss ol li p.p2{
+    color: #ff6700;
+}
+
+.posss{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.posss .totle{
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+.posss .totle h2{
+    width: 50%;
+    height: 60px;
+    text-align: left;
+    line-height: 60px;
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+}
+.posss .listss{
+    width: 100%;
+}
+.posss .listss div.lists{
+    margin-right: 14px;
+    background:#FFFFFF;
+    width: 296px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.posss .listss div.mar{
+    margin: 0;
+}
+.posss .listss .lists div{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.posss .listss .lists div .a1,.posss .listss .lists div a img{
+    display: block;
+    width: 296px;
+    height: 220px;
+}
+.posss .listss .lists div div{
+    padding: 24px 28px 0 28px;
+    width: 240px;
+    height: 172px;
+}
+.posss .listss .lists div div .p1{
+    height: 100px;
+    width: 100%;
+}
+.posss .listss .lists div div .p1 a{
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+.posss .listss .lists div div .p2{
+    width: 100%;
+    height: 72px;
+}
+.posss .listss .lists div div .p2 i{
+    margin-bottom: 16px;
+    display: block;
+    font-style:normal;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.posss .listss .lists div div .p2 a{
+    font-size: 12px;
+    color: #333;
+}
+.posss .listss .lists div div .p2 span{
+    padding: 0 10px;
+    font-size: 14px;
+    color:#b0b0b0;
+}
+.posss .listss .lists div div .p2 b{
+    font-weight: 500;
+    color: #ff6700;
+    font-size: 12px;
+}
+.posss .listss div.lists{
+    overflow: hidden;
+    height: 420px;
+    position: relative;
+
+}
+
+.posss .listss div.lists ul{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 1184px;
+    background: #FFFFFF;
+}
+.posss .listss div.lists ul li.list{
+    width: 296px;
+    float: left;
+    height: 340px;
+}
+.posss .listss div.lists ul li a img,.posss .listss div.lists ul li a{
+    display: block;
+    width: 216px;
+    height: 154px;
+}
+.posss .listss div.lists ul li .box{
+     width: 100%;
+    height: 94px;
+}
+.posss .listss div.lists ul li a{
+    margin: 30px 40px 70px 40px;
+}
+.posss .listss div.lists ul li .box h4 {
+    padding: 0 48px;
+    text-align: center;
+    font-weight: 500;
+}
+.posss .listss div.lists ul li .box h4 a.title{
+    display: inline;
+    font-size: 20px;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.posss .listss div.lists ul li .box .pp1{
+    /*margin-bottom: 10px;*/
+    padding: 0 48px;
+    text-align: center;
+    color: #b0b0b0;
+}
+.posss .listss div.lists ul li .box .pp1 a.con{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: #b0b0b0;
+}
+.posss .listss div.lists ul li div{
+    text-align: center;
+}
+
+.posss .listss div.lists ul li div.box a.mY{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    line-height: 46px;
+    color: #333333;
+}
+
+.posss .listss div.lists span{
+    position: absolute;
+    left: 0;
+    top: 28px;
+    width: 100%;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 5;
+}
+.posss .listss div.lists span.bg1{
+    color: #ffac13;
+}
+.posss .listss div.lists span.bg2{
+    color: #83c44e;
+}
+.posss .listss div.lists span.bg3{
+    color: #e53935;
+}
+.posss .listss div.lists span.bg4{
+    color: #2196f3;
+}
+.posss .listss div.bg1{
+    border-top: 1px solid #ffac13;
+}
+.posss .listss div.bg2{
+    border-top: 1px solid #83c44e;
+}
+.posss .listss div.bg3{
+    border-top: 1px solid #e53935;
+}
+.posss .listss div.bg4{
+    border-top: 1px solid #2196f3;
+}
+
+
+/*  左右切换按钮  */
+.posss .listss div.lists p.btn{
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 100%;
+    height: 50px;
+}
+.posss .listss div.lists p.btn i{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #c6c6c6;
+    background: rgba(0,0,0,.1);
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 5;
+}
+.posss .listss div.lists p.btn .btnL{
+    left: 0;
+}
+.posss .listss div.lists p.btn .btnR{
+    right: 0;
+}
+.posss .listss div.lists p.btn .btnL:hover{
+    background: rgba(0,0,0,.8);
+    color: #FFFFFF;
+}
+.posss .listss div.lists p.btn .btnR:hover{
+    background: rgba(0,0,0,.8);
+    color: #FFFFFF;
+}
+.posss .listss div.lists ol.jd{
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    padding-left: 92px;
+    width: 150px;
+    height: 10px;
+}
+.posss .listss div.lists ol.jd li:hover{
+    background:#ffac13 ;
+}
+.posss .listss div.lists ol.jd li.bg{
+    border-color:#ffac13;
+    background: none;
+}
+.posss .listss div.lists ol.jd li{
+    float: left;
+    margin-right: 24px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #FFFFFF;
+    border-radius:50%;
+    background: #c6c6c6;
+    cursor: pointer;
+    z-index: 5;
+}
+
+
+/*  视频区  */
+.posss .listss .shipin{
+    width: 100%;
+}
+.posss .listss .shipin .list{
+    width: 100%;
+    height: 286px;
+}
+.posss .listss .shipin .list li{
+    float: left;
+    margin-right: 14px;
+    width: 296px;
+    height: 100%;
+    background: #FFFFFF;
+}
+.posss .listss .shipin .list li .box1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+}
+.posss .listss .shipin .list li .box1 .a1,.posss .listss .shipin .list li .box1 .a1 img,.posss .listss .shipin .list li .box1 .a2{
+    display: block;
+}
+.posss .listss .shipin .list li .box1 .a1,.posss .listss .shipin .list li .box1 .a1 img{
+    width: 100%;
+    height: 100%;
+}
+.posss .listss .shipin .list li .box1 .a2{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    border-radius:50% ;
+    width: 31px;
+    height: 30px;
+    background: #212124;
+}
+.posss .listss .shipin .list li .box1 .a2:hover i{
+    color: #ff6700;
+}
+.posss .listss .shipin .list li .box1 .a2 i{
+    position: absolute;
+    top:-1px;
+    left: 1px;
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.posss .listss .shipin .list li .box2{
+    overflow: hidden;
+    width: 100%;
+    height: 106px;
+    text-align: center;
+    background: #FFFFFF;
+}
+.posss .listss .shipin .list li .box2 a{
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #424242;
+}
+.posss .listss .shipin .list li .box2 a:hover{
+    color: #ffac13;
+}
+.posss .listss .shipin .list li .box2 span{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.posss .listss .shipin .list li.mar{
+    margin: 0;
+}
+.bottom{
+    background: #fafafa;
+}
+.bottom  .tops .top{
+    width: 100%;
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.bottom .tops  .top li{
+    float: left;
+    border-right: 1px solid #e0e0e0;
+}
+.bottom .tops  .top li.list{
+    border-right: none;
+    text-align: center;
+}
+.bottom .tops .top li a{
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    width: 244px;
+    text-align: center;
+}
+.bottom .tops  .top li span{
+    font-size: 16px;
+    color: #616161;
+}
+.bottom .cen{
+    padding: 40px 0;
+}
+.bottom .cen dl{
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+.bottom .cen dl dt{
+    margin: -1px 0 26px;
+    padding-bottom: 2px;
+    width: 100%;
+    font-size: 14px;
+    color: #424242;
+    text-align: left;
+}
+.bottom .cen dl dd{
+    margin: 10px 0 0;
+    width: 100%;
+}
+.bottom .cen dl dd a{
+    font-size: 12px;
+    color: #333;
+    line-height: 14px;
+}
+.bottom .cen dl a:hover{
+    color: #ff6700;
+}
+.bottom .cen div{
+    border-left: 1px solid #e0e0e0;
+    width: 247px;
+    height: 112px;
+    text-align: center;
+}
+.bottom .cen div .p1{
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+.bottom .cen div .p2{
+    margin-bottom: 16px;
+    width: 100%;
+    height: 36px;
+    text-align: center;
+}
+.bottom .cen div .p2 span{
+    line-height: 18px;
+    color: #616161;
+}
+.bottom .cen div a{
+    margin-left:62px ;
+    display: block;
+    width: 118px;
+    height: 26px;
+    border: 1px solid #ff6700;
+    text-align: center;
+}
+.bottom .cen div a i{
+    color: #ff6700;
+}
+.bottom .cen div a span{
+    font-size: 12px;
+    line-height: 26px;
+    color: #ff6700;
+}
+.bottom .cen div a:hover{
+    background:#ff6700 ;
+}
+.bottom .cen div a:hover span,.bottom .cen div a:hover i{
+    color: #FFFFFF;
+}
+
+.bottom .bottoms{
+    padding: 30px 0;
+}
+.bottom .bottoms .top1{
+    width: 100%;
+}
+.bottom .bottoms .top1 .left{
+    margin-right: 10px;
+    width: 57px;
+    height: 57px;
+}
+.bottom .bottoms .top1 .left h1{
+    width: 100%;
+    height: 100%;
+    background: url("../img2/mi-logo.png") no-repeat center center #ff6700;
+}
+.bottom .bottoms .cent ul li,.bottom .bottoms .cent ol li{
+    height: 18px;
+    line-height: 18px;
+    float: left;
+}
+.bottom .bottoms .cent ul li a{
+    color:#757575;
+}
+.bottom .bottoms .cent ul li span{
+    padding: 0 4px;
+    color:#b0b0b0;
+}
+.bottom .bottoms .cent ol li,.bottom .bottoms .cent ol li span,.bottom .bottoms .cent ol li a{
+    color: #b0b0b0;
+}
+.bottom .bottoms .cent p{
+    color: #b0b0b0;
+}
+.bottom .bottoms .cent a:hover{
+    color: #ff6700;
+}
+.bottom .bottoms .right{
+    height: 38px;
+}
+.bottom .bottoms .right div{
+    float: left;
+    margin-right: 18px;
+    width: 80px;
+    height: 36px;
+}
+.bottom .bottoms .right div.div3{
+    margin-right: 0;
+}
+.bottom .bottoms .right div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../img2/seal.png") no-repeat  center center #FFFFFF;
+    background-size:100% 100%;
+}
+.bottom .bottoms .right .div1 a{
+    background: url("../img2/v-logo-1.png") no-repeat  center center;
+    background-size:100% 100%;
+}
+.bottom .bottoms .right .div2 a{
+    background: url("../img2/v-logo-2.png") no-repeat  center center;
+    background-size:100% 100%;
+}
+.bottom .bottoms .right .div3 a{
+    background: url("../img2/v-logo-3.png") no-repeat  center center;
+    background-size:100% 100%;
+}
+
+.bottom .slogan{
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    background: url(../img2/slogan2016.png) no-repeat center 0;
+}
+#hardwareDiv1 img,#hardwareDiv2 img,#hardwareDiv3 img,#hardware3 img{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

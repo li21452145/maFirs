@@ -1,0 +1,1 @@
+[{"src":"img2/nav-6-img1.jpg","alt":"手机","tota":"全新小米路由器","$$":"699元起"},{"src":"img2/nav-6-img2.jpg","alt":"手机","tota":"小米路由器 3","$$":"149元"},{"src":"img2/nav-6-img3.jpg","alt":"手机","tota":"小米路由器 mini","$$":"129元"},{"src":"img2/nav-6-img4.jpg","alt":"手机","tota":"小米路由器 青春版","$$":"79元"},{"src":"img2/nav-6-img5.jpg","alt":"手机","tota":"小米WiFi放大器","$$":"39元"}]
