@@ -672,7 +672,26 @@
 
 
     var HotComList2=document.getElementById("HotComList2");
-    uts.moveSSs(HotComList2);
+    moveSSs(HotComList2);
+    function moveSSs(Ele){
+        var li=HotComList2.getElementsByTagName("li");
+        for(var i=0;i<li.length;i++){
+            var oli=li[i];
+            oli.onmouseenter=function(){
+                window.zhufengAnimate(this,{
+                    position: "relative",
+                    top: -2,
+                    boxShadow: " 0px 5px 10px 5px #e1e1e1"
+                },200);
+            }
+            oli.onmouseleave=function(){
+                window.zhufengAnimate(this,{
+                    top: 0,
+                    boxShadow: " 0px 0px 0px 0px #e1e1e1"
+                },200);
+            }
+        }
+    }
 
 
     function  mos(qietu){
@@ -798,3 +817,33 @@ window.onscroll=handleAllImg2;
 
 window.setInterval(handleAllImg3,1000);
 window.onscroll=handleAllImg3;
+
+move(hardware3);
+move(hardware2);
+move(hardware1);
+function move(ele){
+    var oul=ele.getElementsByTagName("ul")[1];
+    var box=utils.children(oul,"div");
+    for(var i=0;i<box.length;i++){
+        var obox=box[i];
+        var div=utils.children(obox,"div");
+        for(var j=0;j<div.length;j++){
+            var odiv=div[j];
+            var divs=utils.children(odiv,"div")[0];
+            var divds=utils.children(odiv,"div")[1];
+            divds.onmouseenter=divs.onmouseenter=function(){
+                window.zhufengAnimate(this,{
+                    position: "relative",
+                    top: -2,
+                    boxShadow: " 0px 5px 10px 5px #e1e1e1"
+                },200);
+            }
+            divds.onmouseleave=divs.onmouseleave=function(){
+                window.zhufengAnimate(this,{
+                    top: 0,
+                    boxShadow: " 0px 0px 0px 0px #e1e1e1"
+                },200);
+            }
+        }
+    }
+}

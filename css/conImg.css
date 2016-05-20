@@ -964,6 +964,42 @@
 #hardwareDiv1 img,#hardwareDiv2 img,#hardwareDiv3 img,#hardware3 img{
     display: none;
 }
+#consss{
+    padding-top: 20px;
+    overflow: hidden;
+}
+#consss a{
+    float: left;
+    font-size: 16px;
+    color: #424242;
+}
+#consss span{
+    float: left;
+    margin-top: 1px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,.5);
+    line-height: 19px;
+    text-align: center;
+}
+#consss:hover a{
+    color: #ff6700;
+}
+#consss:hover span{
+    background: #ff6700;
+}
+#consss:hover span i{
+    color: #ffffff;
+}
+#consss span i{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+#bottomTop li a:hover span{
+    color: #ff6700;
+}
 
 
 
